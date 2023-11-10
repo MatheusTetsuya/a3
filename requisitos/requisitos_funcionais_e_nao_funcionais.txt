@@ -1,0 +1,40 @@
+Requisitos Funcionais:
+
+Interface Gráfica:
+
+Desenvolver uma solução desktop com interface gráfica.
+Utilizar classes do pacote javax.swing para desenvolver a interface gráfica.
+Banco de Dados:
+
+Utilizar o MySQL ou PostgreSQL para gerenciar o banco de dados.
+Controle de Acesso:
+
+Implementar controle de acesso, permitindo apenas usuários autenticados.
+Tipos de Usuários:
+
+Criar dois tipos de usuários: administradores e comuns.
+Funcionalidades do Administrador:
+
+Cadastro de usuários com informações como nome, idade, sexo e até dois tipos de livros preferidos (romance, ficção e técnico).
+Funcionalidades do Usuário Comum:
+
+Cadastro de livros lidos com informações como título, autor, tipo e nota de 0 a 10.
+Visualização da lista completa de livros cadastrados por todos os usuários, ordenada pela média das notas recebidas. Em caso de empate, os livros mais avaliados e, em caso de novo empate, desempate pelo título do livro.
+Requisitos Não Funcionais:
+
+Tecnologias Utilizadas:
+
+Utilizar tecnologias Java para a interface gráfica.
+Utilizar MySQL ou PostgreSQL para o banco de dados.
+Segurança:
+
+Garantir a segurança no controle de acesso, permitindo apenas usuários autenticados.
+Desempenho:
+
+Garantir um desempenho adequado no sistema, especialmente na visualização da lista de livros, considerando a ordenação e o cálculo da média das notas.
+Manutenibilidade:
+
+Desenvolver o sistema de maneira que seja fácil de manter, permitindo futuras atualizações e modificações.
+Usabilidade:
+
+Projetar a interface gráfica de forma intuitiva para facilitar o uso pelos usuários.
